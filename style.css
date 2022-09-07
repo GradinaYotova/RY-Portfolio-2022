@@ -145,10 +145,10 @@ body {margin:0;width: 99vw;overflow-x:hidden; position:relative;}
 #wrapper{width:100%; margin-left:0;}
 
 .buttons{margin-left:0.5em;margin-top:1vh;width:100%;}
-.filterbutton{margin-bottom:0.5em;border:none;font-size:1em;font-family:myFont;background-color:transparent;}
-.filterbutton:focus {outline:0;}
-.filterbutton:hover {cursor:pointer;filter: drop-shadow(0 0 0.75rem #FF00FF);}
-.filterbutton.active {outline:0;filter: drop-shadow(0 0 0.75rem #FF00FF);}
+.filterbutton{margin-bottom:0.5em;border:none;font-size:1em;font-family:myFont;background-color:transparent;color:#000;}
+.filterbutton:focus {outline:0;color:#000;}
+.filterbutton:hover {cursor:pointer;filter: drop-shadow(0 0 0.75rem #FF00FF);color:#000;}
+.filterbutton.active {outline:0;filter: drop-shadow(0 0 0.75rem #FF00FF);color:#000;}
 
 a{text-decoration:none; color:#000;}
 
