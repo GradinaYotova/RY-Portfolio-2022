@@ -3,7 +3,7 @@
 @font-face {font-family: myFontKobe;src: url(content/fonts/Kobe.otf);}
 
 
-body {margin:0;width: 99vw;overflow-x:hidden; position:relative;}
+body {margin:0;width: 99vw;overflow-x:hidden;background-color:#fff; position:relative;}
 
 *{scrollbar-width: none;user-drag: none; user-select: none;-moz-user-select: none;-webkit-user-drag: none;-webkit-user-select: none;-ms-user-select: none;}
 *::-webkit-scrollbar { width: 0 !important }
@@ -11,15 +11,15 @@ body {margin:0;width: 99vw;overflow-x:hidden; position:relative;}
 
 #wrapper{width:100vw; margin-left:0;}
 
-.buttons{margin:0;padding-left:0.5vw;margin-bottom:0.2vw;padding-bottom:0.5vw;padding-top:0.2vw;border:none;z-index:10;background-color:#fff;top:0;width:100%;}
+.buttons{margin:0;padding-left:0vw;margin-bottom:0.2vw;padding-bottom:0.5vw;padding-top:0.5vw;border:none;z-index:10;background-color:#fff;top:0;width:100%;}
 
-.filterbutton{border:none;font-size:1em;font-family:myFont;margin-right:1em;background-color:transparent;color:#000;}
+.filterbutton{border:none;font-size:1em;font-family:myFont;margin-right:0em;background-color:transparent;color:#000;}
 .filterbutton:focus {outline:0;}
 .filterbutton:hover {cursor:pointer;filter: drop-shadow(0 0 0.75rem #FF00FF);}
 .filterbutton.active {outline:0;filter: drop-shadow(0 0 0.75rem #FF00FF);}
 
 
-.aboutTrigger {border:none;font-size:1em;font-family:myFont;margin-right:1em;background-color:transparent;color:#000;}
+.aboutTrigger {border:none;font-size:1em;font-family:myFont;margin-right:0em;background-color:transparent;color:#000;}
 .aboutTrigger:focus {outline:0;}
 .aboutTrigger:hover {cursor:pointer;filter: drop-shadow(0 0 0.75rem #FF00FF);}
 .aboutTrigger.active {outline:0;filter: drop-shadow(0 0 0.75rem #FF00FF);}
@@ -56,7 +56,11 @@ body {margin:0;width: 99vw;overflow-x:hidden; position:relative;}
   text-align:left;
   display:inline-block;
   word-spacing:3px;
+  padding-left: 2em;
+  text-indent:-1.5em;
 }
+
+
 
 .links{
   margin:0;
@@ -124,6 +128,11 @@ a{text-decoration:none; color:#000;}
   height:20%;
 }
 
+.box:hover:after{
+filter: drop-shadow(0 0 0.75rem #FF00FF);
+}
+
+
 .copyrights{
   position: absolute;
   width: 100%;
@@ -140,18 +149,18 @@ a{text-decoration:none; color:#000;}
 
 @media only screen and (max-width: 600px) {
 
-/*body {margin:0;width: 99vw;overflow-x:hidden!important; position:relative;}
+body {margin:0;width: 100vw;overflow-x:hidden!important; position:relative;}
 
 #wrapper{width:100%; margin-left:0;}
 
-.buttons{margin-left:0.5em;margin-top:1vh;width:100%;}
+.buttons{margin-left:0.5em;margin-top:1vh;width:100%;display:block;}
 
 .filterbutton{margin-bottom:0.5em;border:none;font-size:1em;font-family:myFont;background-color:transparent;color:#000;}
 .filterbutton:focus {outline:0;color:#000;}
 .filterbutton:hover {cursor:pointer;filter: drop-shadow(0 0 0rem #FF00FF);color:#000;}
 .filterbutton.active {outline:0;filter: drop-shadow(0 0 0.75rem #FF00FF);color:#000;}
 
-.aboutTrigger {border:none;font-size:1em;font-family:myFont;margin-right:1em;background-color:transparent;color:#000;}
+.aboutTrigger {border:none;font-size:1em;font-family:myFont;/*margin-right:1em;*/background-color:transparent;color:#000;}
 .aboutTrigger:focus {outline:0;color:#000;}
 .aboutTrigger:hover {cursor:pointer;filter: drop-shadow(0 0 0rem #FF00FF);color:#000;}
 .aboutTrigger.active {outline:0;filter: drop-shadow(0 0 0.75rem #FF00FF);color:#000;}
@@ -197,6 +206,8 @@ a:hover{
   text-align:left;
   display:inline-block;
   word-spacing:3px;
+  padding-left: 2em;
+  text-indent:-1.5em;
 }
 
 .links{
@@ -210,8 +221,19 @@ a:hover{
   line-height:1.6;
   text-align:left;
   display:inline-block;
-}*/
+}
 
 
-
+.copyrights{
+  position: absolute;
+  width: 100%;
+  font-family:myFont;
+  font-size:0.6em;
+  line-height:1.2;
+  margin-top:0.5em;
+  padding-top:0.5em;
+  margin-left:1.5em;
+  padding-bottom:0.7em;
+  margin-bottom:0.7em;
+}
 }
