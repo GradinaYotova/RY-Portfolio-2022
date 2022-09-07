@@ -150,6 +150,8 @@ body {margin:0;width: 99vw;overflow-x:hidden; position:relative;}
 .filterbutton:hover {cursor:pointer;filter: drop-shadow(0 0 0.75rem #FF00FF);}
 .filterbutton.active {outline:0;filter: drop-shadow(0 0 0.75rem #FF00FF);}
 
+a{text-decoration:none; color:#000;}
+
 .about-me{
   margin:0;
   margin-left:0.5em;
