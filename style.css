@@ -13,13 +13,13 @@ body {margin:0;width: 99vw;overflow-x:hidden; position:relative;}
 
 .buttons{margin:0;padding-left:0.5vw;margin-bottom:0.2vw;padding-bottom:0.5vw;padding-top:0.2vw;border:none;z-index:10;background-color:#fff;top:0;width:100%;}
 
-.filterbutton{border:none;font-size:1em;font-family:myFont;margin-right:1em;background-color:transparent;}
+.filterbutton{border:none;font-size:1em;font-family:myFont;margin-right:1em;background-color:transparent;color:#000;}
 .filterbutton:focus {outline:0;}
 .filterbutton:hover {cursor:pointer;filter: drop-shadow(0 0 0.75rem #FF00FF);}
 .filterbutton.active {outline:0;filter: drop-shadow(0 0 0.75rem #FF00FF);}
 
 
-.aboutTrigger {border:none;font-size:1em;font-family:myFont;margin-right:1em;background-color:transparent;}
+.aboutTrigger {border:none;font-size:1em;font-family:myFont;margin-right:1em;background-color:transparent;color:#000;}
 .aboutTrigger:focus {outline:0;}
 .aboutTrigger:hover {cursor:pointer;filter: drop-shadow(0 0 0.75rem #FF00FF);}
 .aboutTrigger.active {outline:0;filter: drop-shadow(0 0 0.75rem #FF00FF);}
